@@ -32,15 +32,15 @@ scikit-learn 1.2.0
 -h, --help              show this help message and exit
 
 # Common Settings
---dataset        				Which dataset to use (default: 'BBBP')
+--dataset        		Which dataset to use (default: 'BBBP')
 --shot_number           Number of shot to train (default: 50 for few-shot, 1 for full-shot)
 --skip_epoch            Number of beginning epochs that does not perform evaluation (default: 20)
 --total_epochs        	Number of training epochs (default: 50)
---train_loader_size			Training batch size (default: 8).
---eval_loader_size  		Validation and testing batch size (default: 64)
---emb_dim 		        	Embedding dimensions (default: 300)
---graph_pooling					Graph level pooling (default: 'mean')
---gnn_layers	        	Number of GNN message passing layers (default: 5)
+--train_loader_size		Training batch size (default: 8).
+--eval_loader_size  	Validation and testing batch size (default: 64)
+--emb_dim 		        Embedding dimensions (default: 300)
+--graph_pooling			Graph level pooling (default: 'mean')
+--gnn_layers	        Number of GNN message passing layers (default: 5)
 
 # RL Settings
 --actor_d_lr            Discrete actor learning rate (default: 5e-4)
@@ -74,16 +74,16 @@ scikit-learn 1.2.0
 -h, --help              show this help message and exit
 
 # Common Settings
---dataset        				Which dataset to use (default: 'Cora')
+--dataset        		Which dataset to use (default: 'Cora')
 --shot_number           Number of shot to train (default: 10 for few-shot, 1 for full-shot)
 --skip_epoch            Number of beginning epochs that does not perform evaluation (default: 20)
 --total_epochs        	Number of training epochs (default: 50)
---train_loader_size			Training batch size (default: 8).
---eval_loader_size  		Validation and testing batch size (default: 64)
+--train_loader_size		Training batch size (default: 8).
+--eval_loader_size  	Validation and testing batch size (default: 64)
 --svd_dim               SVD dimension (default: 100)
---emb_dim 		        	Embedding dimensions (default: 128)
---graph_pooling					Graph level pooling (default: 'mean')
---gnn_layers	        	Number of GNN message passing layers (default: 2)
+--emb_dim 		        Embedding dimensions (default: 128)
+--graph_pooling			Graph level pooling (default: 'mean')
+--gnn_layers	        Number of GNN message passing layers (default: 2)
 
 # RL Settings
 --actor_d_lr            Discrete actor learning rate (default: 5e-4)
