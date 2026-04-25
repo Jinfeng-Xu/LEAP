@@ -107,6 +107,20 @@ scikit-learn 1.2.0
 
 
 
+## Citing LEAP
+
+If you find LEAP useful in your research, please consider citing our [paper](https://dl.acm.org/doi/pdf/10.1145/3770854.3780291).
+
+```
+@inproceedings{xu2026learning,
+  title={Learning and Editing Universal Graph Prompt Tuning via Reinforcement Learning},
+  author={Xu, Jinfeng and Chen, Zheyu and Yang, Shuo and Li, Jinze and Wang, Hewei and Li, Yijie and Ngai, Edith CH},
+  booktitle={Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V. 1},
+  pages={1673--1682},
+  year={2026}
+}
+```
+
 ## Acknowledgement
 
 The structure of this code is based on GPF and RELIEF. Thank for their works.
